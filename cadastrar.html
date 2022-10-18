@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="assets/imgs/svg/logoVihmer.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/styles/cadastro.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Vihmer - Cadastro</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="index.html">
+                <img width="50" src="assets/imgs/svg/logoVihmer.svg">
+                <h1>ihmer</h1>
+            </a>
+        </div>
+        <nav>
+            <ul class="list" id="navbar">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cadastrar.html">Cadastrar</a></li>
+                <li><a href="entrar.html">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="cadastrar-conta" class="invisible">
+            <div>
+                <h1 class="cadas">Cadastrar</h1>
+            </div>
+            <form>
+                <fieldset>
+
+                    <div class="container-flex">
+                        <div class="container-grid">
+                            <label>Nome</label>
+                            <input type="text" name="cadastrar-nome" id="cadastrar-nome">
+                        </div>
+                        <div class="container-grid">
+                            <label>Sobrenome</label>
+                            <input type="text" name="cadastrar-sobrenome" id="cadastrar-sobrenome">
+                        </div>
+                    </div>
+                        <div class="container-grid">
+                            <label>Email</label>
+                            <input type="email" name="cadastrar-email" id="cadastrar-email">
+                        </div>
+                    <div class="container-flex">
+                        <div class="container-grid">
+                            <label>Senha</label>
+                            <input type="password" name="cadastrar-senha" id="cadastrar-senha">
+                        </div>
+                        <div class="container-grid">
+                            <label>Confirmar Senha</label>
+                            <input type="password" name="confirmar-senha" id="confirmar-senha">
+                        </div>
+                    </div>
+                    <div class="container-botoes">
+                        <a href="entrar.html" id="1" class="btn">Voltar</a>
+                        <button id="btn-cadastrar" class="btn">Cadastrar</button>
+                    </div>
+                </fieldset>
+                <div class="center-text" id="alerta-cadastrar"></div>
+            </form>
+        </div>
+    </main>
+
+    
+        <footer>
+            <p>© 2022, Vihmer - Todos os direitos reservados.</p>
+        </footer>
+</body>
+    <script src="assets/js/cadastrar.js"></script>
+</html>

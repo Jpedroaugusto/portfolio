@@ -1,0 +1,276 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+
+    background-color: white;
+    justify-content: center;
+    height: 70px;
+    
+    box-shadow: #9e9e9e 0px 0px 10px;
+}
+
+main{
+    display: grid;
+    width: 217vh;
+}
+
+nav{
+    margin-right: 110px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: coral;
+}
+
+h2 span {
+    font-size: 40px;
+    color: orangered;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+#sobre-mim{
+    margin-left: 30px;
+    width: 800px;
+}
+
+.logo{
+    display: flex;
+
+    margin-right: auto;
+
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 30px;
+    gap: 14px;
+
+    color: #22251f;
+}
+
+.background{
+    background-color: #fff;
+}
+
+.list, .list a{
+    list-style: none;
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    height: 25px;
+    gap: 80px;
+    
+    font-size: 20px;
+}
+#navbar a {
+
+    color: #cc183c;
+    transition: 0.5s all;
+}
+#navbar a:hover {
+    color: #353535;
+    border-bottom: 1px solid #22251f;
+}
+
+
+.btn{
+    display: grid;
+    width: 160px;
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+
+    color: #fff;
+    background-color: rgb(245, 31, 113);
+
+    border-radius: 5px;
+    border: solid 2px #fff;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: tomato;
+}
+
+
+#habilidades {
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+
+aside , #hud {
+    float: left;
+}
+
+aside {
+    margin-bottom: 410px;
+    margin-right: 0px;
+    border-radius: 10px;
+    padding: 20px;
+
+    border: 4px solid #647dec;
+    box-shadow: #5367c0 0px 0px 20px;
+}
+aside h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+aside ul {
+    list-style: none;
+    display: grid;
+    gap: 20px;
+}
+
+
+aside a {
+    gap: 10px;
+    display: flex;
+    
+    align-items: center;
+    
+    font-size: 18px;
+    font-weight: bold;
+}
+
+aside li {
+    border-radius: 10px;
+    padding: 6px;
+    width: 250px;
+    transition: 0.4s all;
+}
+
+aside li:hover {
+    background-color: #647dec81;
+    box-shadow: #fff 0px 0px 10px;
+}
+
+.carrossel {
+    border-radius: 30px;
+    margin-right: 50px;
+    box-shadow: black 0px 0px 10px;
+    overflow: hidden;
+    height: 420px;
+    width: 900px;
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+#contatos{
+    display: flex;
+}
+
+#sobre-mim{
+    margin-left: 50px;
+    width: 1000px;
+    display: flex;
+    font-size: 20px;
+}
+
+#profile{
+    width: 300px;
+    border-radius: 250px;
+    border: 4px solid #647dec;
+    box-shadow: #5367c0 0px 0px 20px;
+
+    margin-left: 10px;
+}
+#contato {
+    margin-right: auto ;
+    width: 1200px;
+    border-radius: 10px;
+    border: 4px solid #647dec;
+    box-shadow: #5367c0 0px 0px 20px;
+}
+
+.social {
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: white;
+}
+.social h1 {
+    padding: 8px;
+}
+
+.social ul{
+    list-style: none;
+    display: grid;
+    gap: 10px;
+}
+
+.social li {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.margin{
+    margin-right: 60px;
+    text-align: center;
+}
+.flex {
+}
+.desenvolvimento h1{
+    text-align: center;
+}
+
+.desenvolvimento ul{
+    font-size: 20px;
+    list-style: none;
+}
+
+.link{
+    font-weight: bold;
+    color: palevioletred;
+}
+
+.link:hover{
+    color: #353535;
+}
+footer{
+    padding: 20px 0 30px 0px;
+    text-align: center;
+    background: url('img/fundo-rodape.png') no-repeat center top;
+    margin-top: 20px;
+}

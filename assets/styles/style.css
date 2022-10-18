@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    
+    box-shadow: #d1cfcf 0px 0px 10px;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    width: 1080px;
+    margin-left: 100px;
+}
+
+nav{
+    margin-right: 110px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: coral;
+}
+
+h2 span {
+    font-size: 40px;
+    color: orangered;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+
+    margin-right: auto;
+
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 30px;
+    gap: 14px;
+
+    color: #22251f;
+}
+
+.background{
+    background-color: #fff;
+}
+
+.list, .list a{
+    list-style: none;
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    gap: 80px;
+    
+    font-size: 20px;
+}
+#navbar a {
+
+    color: #cc183c;
+    transition: 0.5s all;
+}
+#navbar a:hover {
+    color: #353535;
+    border-bottom: 1px solid #22251f;
+}
+
+
+.btn{
+    display: grid;
+    width: 160px;
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+
+    color: #fff;
+    background-color: rgb(245, 31, 113);
+
+    border-radius: 5px;
+    border: solid 2px #fff;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: tomato;
+}
+
+
+#habilidades {
+}
+
+aside , #hud {
+    float: left;
+}
+
+aside {
+    margin-left: 300px;
+}
+
+aside ul {
+    list-style: none;
+    display: grid;
+    gap: 20px;
+}
